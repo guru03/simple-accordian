@@ -1,0 +1,42 @@
+﻿@import "my-mixin.scss";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+$pixels: 32;
+$browser-context: 16; // Default
+$context: $browser-context;
+@function em($pixels2) {
+    @return ($pixels2 / $context) * 1em;
+}
+
+$font-bootstrap:-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol";
+$font-roboto: 'Roboto',
+'Segoe UI',
+Tahoma,
+Geneva,
+Verdana,
+sans-serif;
+$color-white: #fff;
+$color-black: #000;
+$color-main: #212529;
+$color-blue: #00599d;
+
+/* Color Themes */
+
+$color-theme-blue-1:#03A9F4;
+$color-theme-blue-2:#0277BD;
+$color-theme-purple-1:#673AB7;
+$color-theme-purple-2:#4527A0;
+$color-theme-green-1:#4CAF50;
+$color-theme-green-2:#2E7D32;
+$color-theme-teal-1:#009688;
+$color-theme-teal-2:#00695C;
+$color-theme-brown:#d97c3e;
+$color-theme-red:#dc4437;

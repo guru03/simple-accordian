@@ -1,0 +1,93 @@
+﻿/* =======================
+       Custom Change
+   ----------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: $font-bootstrap;
+    font-family: $font-roboto;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.5;
+    color: $color-main;
+    background-color: #F2F8FA;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    @include transition(all 0.3s ease-in-out);
+    &:focus {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    &:hover {
+        text-decoration: none;
+        @include transition(all 0.3s ease-in-out);
+    }
+    &:active {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+}
+
+ul,
+li {
+    list-style-type: none;
+    color: $color-blue;
+}
+
+textarea {
+    resize: none;
+}
+
+.row {
+    &:after {
+        display: table;
+        content: " ";
+    }
+    &:before {
+        display: table;
+        content: " ";
+        clear: both;
+    }
+}
+
