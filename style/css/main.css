@@ -1,0 +1,136 @@
+/* Main Shadow */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+/* Color Themes */
+/* =======================
+       Custom Change
+   ----------------------- */
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:300,400,600");
+* {
+  box-sizing: border-box; }
+
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.15;
+  font-size: 16px;
+  overflow-x: hidden; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #F2F8FA;
+  overflow-x: hidden; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: .5rem; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  a:focus {
+    text-decoration: none; }
+    a:focus:hover {
+      text-decoration: none; }
+  a:hover {
+    text-decoration: none;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  a:active {
+    text-decoration: none; }
+    a:active:hover {
+      text-decoration: none; }
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%; }
+
+ul,
+li {
+  list-style-type: none;
+  color: #00599d; }
+
+textarea {
+  resize: none; }
+
+.row:after {
+  display: table;
+  content: " "; }
+.row:before {
+  display: table;
+  content: " ";
+  clear: both; }
+
+/* Main Shadow */
+/* Color Themes */
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 300; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+p {
+  font-size: 1.1em;
+  margin: 1em 0; }
+
+.description {
+  margin: 1em auto 2.25em; }
+
+body {
+  width: 40%;
+  min-width: 300px;
+  max-width: 400px;
+  margin: 1.5em auto;
+  color: #333; }
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-size: 2.5em; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+  ul .inner {
+    padding-left: 1em;
+    overflow: hidden;
+    display: none; }
+    ul .inner.show {
+      /*display: block;*/ }
+  ul li {
+    margin: .5em 0; }
+    ul li a.toggle {
+      width: 100%;
+      display: block;
+      background: rgba(0, 0, 0, 0.78);
+      color: #fefefe;
+      padding: .75em;
+      border-radius: 0.15em;
+      transition: background .3s ease; }
+      ul li a.toggle:hover {
+        background: rgba(0, 0, 0, 0.9); }
+
+/*# sourceMappingURL=main.css.map */
